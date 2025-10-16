@@ -1,0 +1,2 @@
+mnemonic~=0.21
+ttkbootstrap~=1.13.10
