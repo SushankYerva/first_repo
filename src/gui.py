@@ -695,7 +695,7 @@ def stop_mainloop():
         root.quit()  # Ends the loop after a set time
 
 if platform.system() == 'Linux':
-    threading.Timer(15.0, stop_mainloop).start()  # Stop after 15 seconds
+    threading.Timer(2.0, stop_mainloop).start()  # Stop after 2 seconds
 else:
     root.mainloop()
 
