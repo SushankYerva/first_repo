@@ -4,8 +4,7 @@ A Python-based Tkinter GUI to recover wallets using mnemonic seeds and key deriv
 
 > **Legal & Ethical Use Only:** Use solely for wallets you own or have explicit permission to recover.
 
-## Quickstart
-```bash
-python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python -m src.wallet_recovery.gui  # adjust to your entrypoint
+![Build Status](https://github.com/<your-username>/wallet-recovery-gui/actions/workflows/ci.yml/badge.svg)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+![License](https://img.shields.io/github/license/<your-username>/wallet-recovery-gui)
+
