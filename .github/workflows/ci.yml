@@ -25,7 +25,7 @@ jobs:
       - name: Run wallet recovery app (headless)
         run: |
           # Here we simulate running the Tkinter GUI in headless mode
-          python -m src.wallet_recovery.gui  # Adjust to your entry point
+          python -m src.gui  # Adjust to your entry point
         env:
           DISPLAY: :99  # Display variable for headless mode
 

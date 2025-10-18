@@ -30,23 +30,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.gui.executor": "Run",
-    "Python.mark1.executor": "Run",
-    "Python.mark2.executor": "Run",
-    "Python.mark3.executor": "Run",
-    "Python.multipage.executor": "Run",
-    "Python.newseedrecover.executor": "Run",
-    "Python.temp.executor": "Run",
-    "Python.zcash_address.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/MyFinalYearProject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mark1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mark2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mark3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multipage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.newseedrecover.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zcash_address.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyFinalYearProject&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyFinalYearProject\src" />
