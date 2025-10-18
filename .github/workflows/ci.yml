@@ -9,26 +9,30 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest  # You can use other environments too, e.g., macos-latest
+    runs-on: ubuntu-latest  # or macos-latest, depending on your preference
 
     steps:
       - uses: actions/checkout@v4  # Checkout your repo code
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.13'  # Set Python version
+          python-version: '3.11'  # Set Python version
       - run: python -m venv .venv && source .venv/bin/activate  # Setup virtual environment
       - run: pip install -r requirements.txt  # Install dependencies
       - run: pip install pytest  # Install testing library
       - run: pytest tests/  # Run your tests
 
+      # Set up Xvfb (headless virtual display)
+      - name: Set up virtual display with Xvfb
+        run: |
+          sudo apt-get install -y xvfb
+          nohup Xvfb :99 -screen 0 1280x1024x24 &
+
       # Run the actual project code (headless test for Tkinter)
       - name: Run wallet recovery app (headless)
         run: |
           # Here we simulate running the Tkinter GUI in headless mode
-          python -m src.gui  # Adjust to your entry point
-        env:
-          DISPLAY: :99  # Display variable for headless mode
+          DISPLAY=:99 python -m src.gui  # Running the actual Tkinter GUI (gui.py)
 
-      # Optionally, you can also check for log file or output from running the app
+      # Optionally, check for any output or logs from the GUI run
       - name: Check GUI output (logs)
         run: cat output.log || echo "No output generated."
