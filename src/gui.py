@@ -15,6 +15,7 @@ from bip_utils import (
 import threading
 import tkinter.ttk as ttk
 import csv
+import platform
 
 
 
@@ -329,8 +330,12 @@ root = tk.Tk()
 root.geometry('900x680')
 root.title("Seed Phrase Validator & Recovery")
 
-style = ttk.Style()
-style.theme_use("winnative")
+if platform.system() == 'Windows':
+    style = ttk.Style(root)
+    style.theme_use("winnative")  # Use Windows theme
+else:
+    style = ttk.Style(root)
+    style.theme_use("clam")
 # Make selected tab visually distinct; keep others simple
 style.configure("TNotebook.Tab", width='70', anchor="center")
 style.map(
