@@ -24,7 +24,7 @@ import csv
 cancel_flag = threading.Event()
 
 # Load BIP39 English wordlist once (lowercase + stripped) for fast membership checks
-with open("./bip39_english.txt", "r", encoding="utf-8") as f:
+with open("/home/runner/work/first_repo/first_repo/src/bip39_english.txt", "r", encoding="utf-8") as f:
     bip39_words = set(w.strip().lower() for w in f if w.strip())
 
 
