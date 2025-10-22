@@ -6,5 +6,5 @@ A Python-based Tkinter GUI to recover wallets using mnemonic seeds and key deriv
 
 ![Build Status](https://github.com/SushankYerva/wallet_recovery/actions/workflows/ci.yml/badge.svg)
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
-![License](https://img.shields.io/github/license/<your-username>/wallet-recovery-gui)
+![License](https://img.shields.io/github/license/SushankYerva/wallet_recovery)
 
