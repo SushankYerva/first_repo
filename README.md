@@ -18,10 +18,10 @@ A **Python-based Tkinter GUI** application designed for **seed phrase validation
 
 ## Screenshots
 
-![Wallet Recovery Screenshot](asset/screenshots/Wallet_recovery_tab.png)
+![image_alt](https://github.com/SushankYerva/wallet_recovery/blob/a8f752fe06d2a2e748e7126a4a16f8edb4202386/assest/screenshots/Wallet_recovery_tab.png)
 _Example of the Wallet Recovery tab_
 
-![Seed Recovery Screenshot](asset/screenshots/seed_recovery_tab.png)
+![image_alt](https://github.com/SushankYerva/wallet_recovery/blob/a8f752fe06d2a2e748e7126a4a16f8edb4202386/assest/screenshots/seed_recovery_tab.png)
 _Example of the Seed Recovery tab_
 
 ## Quickstart
