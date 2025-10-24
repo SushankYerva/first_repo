@@ -16,13 +16,6 @@ A **Python-based Tkinter GUI** application designed for **seed phrase validation
 - **Progress Visualization**: Displays a progress bar with real-time updates while recovering wallet addresses.
 - **Export Functionality**: Export recovered wallet addresses and secrets (e.g., **WIF**, **xpub**, **xprv**) as CSV files.
 
-## Screenshots
-
-![image_alt](https://github.com/SushankYerva/wallet_recovery/blob/a8f752fe06d2a2e748e7126a4a16f8edb4202386/assest/screenshots/Wallet_recovery_tab.png)
-_Example of the Wallet Recovery tab_
-
-![image_alt](https://github.com/SushankYerva/wallet_recovery/blob/a8f752fe06d2a2e748e7126a4a16f8edb4202386/assest/screenshots/seed_recovery_tab.png)
-_Example of the Seed Recovery tab_
 
 ## Quickstart
 
